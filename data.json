@@ -1,0 +1,5 @@
+{
+  "ledgerFolder": "Finance/Ledger",
+  "defaultAccount": "Assets:Checking",
+  "autoRunRecurring": true
+}

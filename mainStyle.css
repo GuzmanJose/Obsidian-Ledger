@@ -1,0 +1,110 @@
+/* styles.css */
+
+/* Now you can style your buttons */
+.my-icon-btn i {
+  margin-right: 0.3em;
+  vertical-align: middle;
+}
+
+
+
+.dashboard-charts {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 600px) {
+  .dashboard-charts {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .dashboard-charts canvas {
+    width: 48%;
+  }
+}
+
+.recurring-controls {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.recurring-hint {
+  font-size: 0.9em;
+  opacity: 0.7;
+  padding-top: 1em;
+}
+
+
+
+/*   ---- FORM CONTAINER ----      */
+
+/* styles.css */
+
+/* Form container */
+.ledger-input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Date & Payee fields */
+.ledger-field-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+/* Add‐line buttons row */
+.ledger-add-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* Expense row wrapper */
+.ledger-row-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+/* Top fields in each row */
+.ledger-fields-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+/* Comment input below fields */
+.ledger-comment-input {
+  width: 100%;
+}
+
+/* Trash/remove button */
+.ledger-remove-btn {
+  align-self: flex-end;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9em;
+  padding: 0;
+}
+
+/* Submit/cancel buttons container */
+.ledger-control-row {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "monthly-rent",
+    "label": "Monthly Rent",
+    "day": 1,
+    "active": true,
+    "template": "Expenses:Rent  $1200\nAssets:Checking",
+    "lastRun": "2025-05-01"
+  },
+  {
+    "id": "salary",
+    "label": "Monthly Salary",
+    "day": 1,
+    "active": true,
+    "template": "Assets:Checking  $3000\nIncome:Job",
+    "lastRun": "2025-05-01"
+  }
+]
+

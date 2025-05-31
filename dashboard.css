@@ -1,0 +1,38 @@
+/* styles/dashboard.css */
+
+.dashboard-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-controls label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.dashboard-charts {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.chart-wrapper {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .dashboard-charts {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.dashboard-empty-msg {
+  padding: 1rem;
+  font-style: italic;
+  color: var(--text-muted);
+  opacity: 0.8;
+}
+
